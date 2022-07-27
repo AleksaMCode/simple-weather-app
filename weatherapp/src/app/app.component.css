@@ -1,0 +1,13 @@
+ul{
+    list-style: none;
+    overflow: hidden;
+    background-color: darkgray;
+}
+li{
+    display: inline;
+    float: left;
+    padding: 12px;
+}
+a{
+    display: block;
+}

@@ -1,0 +1,7 @@
+<div>
+    <input [(ngModel)]="city" />
+    <button (click)="getCurrentWeather()">Get Current Weather</button>
+    <button>Get 5 Day Forecast</button>
+</div>
+
+<app-current-weather [data]="weatherData"></app-current-weather>
