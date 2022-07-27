@@ -6,14 +6,15 @@ import { AppComponent } from './app.component';
 import { WeatherComponent } from './components/weather/weather.component';
 import { OtherComponent } from './components/other/other.component';
 import { FormsModule } from '@angular/forms';
-import { CurrentWeatherComponent } from './components/weather/current-weather/current-weather.component';
+import { CurrentWeatherComponent, FloorPipe } from './components/weather/current-weather/current-weather.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WeatherComponent,
     OtherComponent,
-    CurrentWeatherComponent
+    CurrentWeatherComponent,
+    FloorPipe
   ],
   imports: [
     BrowserModule,

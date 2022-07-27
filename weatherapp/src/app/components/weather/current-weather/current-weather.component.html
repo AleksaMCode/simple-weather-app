@@ -1,5 +1,5 @@
 <div *ngIf="data.main.temp">
     <img [src]="data.icon">
-    <h3>{{data.main.temp-272.15}}</h3>
+    <h3>{{data.main.temp-272.15 | floor}} ℃</h3>
     <p>Feels Like</p>
 </div>

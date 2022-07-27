@@ -1,5 +1,4 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { round } from 'lodash';
 
 import { CurrentWeatherComponent } from './current-weather.component';
 

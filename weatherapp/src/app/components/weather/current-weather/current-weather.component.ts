@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnInit, Pipe } from '@angular/core';
 
 @Component({
   selector: 'app-current-weather',
@@ -12,4 +12,12 @@ export class CurrentWeatherComponent implements OnInit {
   ngOnInit(): void {
   }
 
+}
+
+@Pipe({name: 'floor'})
+export class FloorPipe {
+  transform (input: number)
+  {
+    return Math.floor(input)
+  }
 }
