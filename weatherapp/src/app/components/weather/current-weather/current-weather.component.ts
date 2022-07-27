@@ -21,3 +21,11 @@ export class FloorPipe {
     return Math.floor(input)
   }
 }
+
+@Pipe({name: 'round'})
+export class RoundPipe {
+  transform (input: number, precision: number)
+  {
+    return +(Math.round(Number(input + "e+" + precision)) + "e-" + precision);
+  }
+}

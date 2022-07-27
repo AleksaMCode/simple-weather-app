@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { WeatherComponent } from './components/weather/weather.component';
 import { OtherComponent } from './components/other/other.component';
 import { FormsModule } from '@angular/forms';
-import { CurrentWeatherComponent, FloorPipe } from './components/weather/current-weather/current-weather.component';
+import { CurrentWeatherComponent, FloorPipe, RoundPipe } from './components/weather/current-weather/current-weather.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +14,8 @@ import { CurrentWeatherComponent, FloorPipe } from './components/weather/current
     WeatherComponent,
     OtherComponent,
     CurrentWeatherComponent,
-    FloorPipe
+    FloorPipe,
+    RoundPipe
   ],
   imports: [
     BrowserModule,
