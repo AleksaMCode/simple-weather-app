@@ -1,4 +1,4 @@
-<img width="150" align="right" title="PI icon" src="./resources/cloudy.png" alt_text="[Rain icons created by Freepik - Flaticon](https://www.flaticon.com/free-icon/cloudy_1163657)"></img>
+<img width="150" align="right" title="rain icon" src="./resources/cloudy.png" alt_text="[Rain icons created by Freepik - Flaticon](https://www.flaticon.com/free-icon/cloudy_1163657)"></img>
 
 # Simple weather app
 <p align="justify">Simple <i>Angular</i> app created to gain better understanding of Angular and TypeScript during my internship @ <a href="https://www.rt-rk.com/">RT-RK</a>.<br><br>
